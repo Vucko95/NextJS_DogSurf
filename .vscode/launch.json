@@ -1,0 +1,36 @@
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//       {
+//         "name": "MAINNN",
+//         "type": "node-terminal",
+        
+//         "request": "launch",
+//         "command": "npm run dev",
+//         "cwd": "${workspaceFolder}/dog-surf",
+//         "sourceMapPathOverrides": {
+//           "webpack:///./*": "${workspaceRoot}/dog-surf/*",
+//         }
+
+//       }
+//     ]
+//   }
+
+
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//       {
+//         "type": "node",
+//         "request": "launch",
+//         "name": "Example",
+//         "runtimeExecutable": "node",
+//         "runtimeArgs": ["--inspect", "node_modules/.bin/next", "dev"],
+//         "port": 9229,
+//         "cwd": "${workspaceFolder}/dog-surf",
+//         "sourceMapPathOverrides": {
+//           "webpack:///./*": "${workspaceRoot}/dog-surf/*",
+//         }
+//       }
+//     ]
+//   }
